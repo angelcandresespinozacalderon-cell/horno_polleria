@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Horno de Ladrillo",
+        "imagen": "https://via.placeholder.com/300x200?text=Horno+Ladrillo",
+        "descripcion": "Horno artesanal hecho de ladrillo, ideal para pizzas y panes.",
+        "whatsapp": "https://wa.me/51999999999?text=Quiero%20más%20información%20sobre%20el%20Horno%20de%20Ladrillo"
+    },
+    {
+        "nombre": "Horno Industrial",
+        "imagen": "https://via.placeholder.com/300x200?text=Horno+Industrial",
+        "descripcion": "Horno profesional para panaderías y restaurantes.",
+        "whatsapp": "https://wa.me/51999999999?text=Quiero%20más%20información%20sobre%20el%20Horno%20Industrial"
+    },
+    {
+        "nombre": "Horno Eléctrico",
+        "imagen": "https://via.placeholder.com/300x200?text=Horno+El%C3%A9ctrico",
+        "descripcion": "Horno eléctrico compacto, perfecto para uso doméstico.",
+        "whatsapp": "https://wa.me/51999999999?text=Quiero%20más%20información%20sobre%20el%20Horno%20El%C3%A9ctrico"
+    }
+]
