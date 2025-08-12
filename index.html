@@ -3,50 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horno Pollería</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Catálogo Moderno</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background: linear-gradient(90deg, #007bff, #00bcd4);
+        }
+        .navbar-brand {
+            color: white !important;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Botón flotante WhatsApp */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            z-index: 999;
+            transition: transform 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            background-color: #20b357;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Encabezado -->
-    <header>
-        <h1>🔥 Horno Pollería</h1>
-        <p>El mejor sabor al mejor precio</p>
-    </header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mi Catálogo</a>
+  </div>
+</nav>
 
-    <!-- Catálogo -->
-    <section class="catalogo">
-        <div class="producto">
-            <img src="img/pollo_asado.jpg" alt="Pollo Asado">
-            <h3>Pollo Asado</h3>
-            <p>Jugoso y dorado, al horno tradicional.</p>
-            <span class="precio">S/ 35.00</span>
+<!-- Sección de productos -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <div class="row g-4">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 1</h5>
+                    <p class="card-text text-success fw-bold">$25.00</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
         </div>
-
-        <div class="producto">
-            <img src="img/broaster.jpg" alt="Pollo Broaster">
-            <h3>Pollo Broaster</h3>
-            <p>Crocante y delicioso, receta especial.</p>
-            <span class="precio">S/ 38.00</span>
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 2</h5>
+                    <p class="card-text text-success fw-bold">$40.00</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
         </div>
-
-        <div class="producto">
-            <img src="img/papas_fritas.jpg" alt="Papas Fritas">
-            <h3>Papas Fritas</h3>
-            <p>Doradas y crujientes, acompañamiento ideal.</p>
-            <span class="precio">S/ 10.00</span>
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 3</h5>
+                    <p class="card-text text-success fw-bold">$60.00</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- Botón de WhatsApp -->
-    <a href="https://wa.me/51999999999" class="whatsapp" target="_blank">
-        💬
-    </a>
+<!-- Botón flotante WhatsApp -->
+<a href="https://wa.me/51987654321" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 Horno Pollería | Todos los derechos reservados</p>
-    </footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
