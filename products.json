@@ -5,6 +5,7 @@
         "brand": "CocinaMax",
         "category": "electric",
         "price": 899,
+        "image": "images/products/horno-electrico-premium.jpg",
         "description": "Horno eléctrico multifunción con tecnología de convección avanzada y pantalla digital táctil.",
         "specifications": [
             "Capacidad: 71 litros",
