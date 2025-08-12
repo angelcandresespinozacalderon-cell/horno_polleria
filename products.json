@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "name": "Horno Eléctrico Premium HE-2024",
+        "brand": "CocinaMax",
+        "category": "electric",
+        "price": 899,
+        "description": "Horno eléctrico multifunción con tecnología de convección avanzada y pantalla digital táctil.",
+        "specifications": [
+            "Capacidad: 71 litros",
+            "Potencia: 3400W",
+            "12 funciones de cocción",
+            "Temperatura: 30-250°C",
+            "Clase energética A++",
+            "Dimensiones: 59.5 x 59.5 x 54.8 cm"
+        ],
+        "features": [
+            "Sistema de autolimpieza pirolítica",
+            "Pantalla táctil LED",
+            "Triple acristalamiento",
+            "Ventilador de refrigeración",
+            "Guías telescópicas incluidas",
+            "Sonda de temperatura"
+        ],
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "Horno a Gas Industrial GI-300",
+        "brand": "GasChef",
+        "category": "gas",
+        "price": 1299,
+        "description": "Horno a gas profesional ideal para uso intensivo en cocinas comerciales y domésticas exigentes.",
+        "specifications": [
+            "Capacidad: 85 litros",
+            "Quemadores: 6 niveles",
+            "Gas natural y GLP",
+            "Temperatura: 50-300°C",
+            "Acero inoxidable",
+            "Dimensiones: 90 x 60 x 60 cm"
+        ],
+        "features": [
+            "Encendido automático",
+            "Válvula de seguridad",
+            "Distribución uniforme del calor",
+            "Puerta con doble vidrio",
+            "Bandeja recolectora extraíble",
+            "Certificación de seguridad CE"
+        ],
+        "featured": false
+    },
+    {
+        "id": 3,
+        "name": "Horno Empotrado Elegance BE-100",
+        "brand": "KitchenLux",
+        "category": "builtin",
+        "price": 1599,
+        "description": "Horno empotrado de diseño elegante con acabados premium y tecnología inteligente integrada.",
+        "specifications": [
+            "Capacidad: 65 litros",
+            "Potencia: 3600W",
+            "15 programas automáticos",
+            "WiFi integrado",
+            "Clase energética A+++",
+            "Dimensiones empotrado: 56 x 59.5 x 54.8 cm"
+        ],
+        "features": [
+            "Control por smartphone",
+            "Reconocimiento de voz",
+            "Sistema de vapor integrado",
+            "Limpieza hidrolítica",
+            "Iluminación LED interior",
+            "Diseño sin marco"
+        ],
+        "featured": true
+    },
+    {
+        "id": 4,
+        "name": "Horno Convección Profesional CP-450",
+        "brand": "ProBake",
+        "category": "convection",
+        "price": 2199,
+        "description": "Horno de convección profesional con sistema de circulación de aire optimizado para resultados perfectos.",
+        "specifications": [
+            "Capacidad: 95 litros",
+            "Potencia: 4200W",
+            "Ventilador de convección doble",
+            "Temperatura: 30-280°C",
+            "10 niveles de cocción",
+            "Dimensiones: 75 x 70 x 65 cm"
+        ],
+        "features": [
+            "Sistema de convección forzada",
+            "Temporizador digital",
+            "Aislamiento térmico superior",
+            "Puerta extraíble",
+            "Rejillas ajustables",
+            "Garantía profesional 5 años"
+        ],
+        "featured": false
+    },
+    {
+        "id": 5,
+        "name": "Horno Eléctrico Compacto EC-Smart",
+        "brand": "CompactCook",
+        "category": "electric",
+        "price": 549,
+        "description": "Horno eléctrico compacto perfecto para cocinas pequeñas sin comprometer la funcionalidad.",
+        "specifications": [
+            "Capacidad: 45 litros",
+            "Potencia: 2800W",
+            "8 funciones de cocción",
+            "Temperatura: 50-230°C",
+            "Clase energética A+",
+            "Dimensiones: 52 x 52 x 42 cm"
+        ],
+        "features": [
+            "Diseño ultracompacto",
+            "Grill integrado",
+            "Timer programable",
+            "Luz interior halógena",
+            "Fácil instalación",
+            "Bajo consumo energético"
+        ],
+        "featured": false
+    },
+    {
+        "id": 6,
+        "name": "Horno Eléctrico Compacto EC-Smart",
+        "brand": "CompactCook",
+        "category": "electric",
+        "price": 549,
+        "description": "Horno eléctrico compacto perfecto para cocinas pequeñas sin comprometer la funcionalidad.",
+        "specifications": [
+            "Capacidad: 45 litros",
+            "Potencia: 2800W",
+            "8 funciones de cocción",
+            "Temperatura: 50-230°C",
+            "Clase energética A+",
+            "Dimensiones: 52 x 52 x 42 cm"
+        ],
+        "features": [
+            "Diseño ultracompacto",
+            "Grill integrado",
+            "Timer programable",
+            "Luz interior halógena",
+            "Fácil instalación",
+            "Bajo consumo energético"
+        ],
+        "featured": false
+    },
+    {
+        "id": 7,
+        "name": "Horno Eléctrico Compacto EC-Smart",
+        "brand": "CompactCook",
+        "category": "electric",
+        "price": 549,
+        "description": "Horno eléctrico compacto perfecto para cocinas pequeñas sin comprometer la funcionalidad.",
+        "specifications": [
+            "Capacidad: 45 litros",
+            "Potencia: 2800W",
+            "8 funciones de cocción",
+            "Temperatura: 50-230°C",
+            "Clase energética A+",
+            "Dimensiones: 52 x 52 x 42 cm"
+        ],
+        "features": [
+            "Diseño ultracompacto",
+            "Grill integrado",
+            "Timer programable",
+            "Luz interior halógena",
+            "Fácil instalación",
+            "Bajo consumo energético"
+        ],
+        "featured": false
+    }
+]
