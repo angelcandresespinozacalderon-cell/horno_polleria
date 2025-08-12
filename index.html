@@ -3,132 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo Moderno - Pollería</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Catálogo de Hornos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f8f9fa;
     }
-    .card img {
-      height: 250px;
-      object-fit: cover;
+    .product-card {
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .product-card:hover {
+      transform: scale(1.03);
     }
     .whatsapp-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      border-radius: 50%;
-      padding: 15px;
-      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-      z-index: 999;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
     }
-    .whatsapp-btn img {
-      width: 40px;
-      height: 40px;
+    .whatsapp-btn:hover {
+      background-color: #20b558;
+      color: white;
     }
   </style>
 </head>
 <body>
 
   <div class="container py-5">
-    <h1 class="text-center mb-5">🍗 Catálogo de Hornos Pollería</h1>
+    <h1 class="text-center mb-5">Catálogo de Hornos</h1>
     <div class="row g-4">
       <!-- Producto 1 -->
       <div class="col-md-4">
-        <div class="card shadow-sm">
-          <img src="https://via.placeholder.com/300x250?text=Horno+1" class="card-img-top" alt="Horno 1">
+        <div class="card product-card" data-bs-toggle="modal" data-bs-target="#modal1">
+          <img src="https://via.placeholder.com/400x300?text=Horno+1" class="card-img-top" alt="Horno 1">
           <div class="card-body text-center">
-            <h5 class="card-title">Horno Clásico</h5>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Ver más</button>
+            <h5 class="card-title">Horno Industrial 1</h5>
+            <p class="text-success fw-bold">$1,200</p>
           </div>
         </div>
       </div>
       <!-- Producto 2 -->
       <div class="col-md-4">
-        <div class="card shadow-sm">
-          <img src="https://via.placeholder.com/300x250?text=Horno+2" class="card-img-top" alt="Horno 2">
+        <div class="card product-card" data-bs-toggle="modal" data-bs-target="#modal2">
+          <img src="https://via.placeholder.com/400x300?text=Horno+2" class="card-img-top" alt="Horno 2">
           <div class="card-body text-center">
-            <h5 class="card-title">Horno Profesional</h5>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Ver más</button>
+            <h5 class="card-title">Horno Industrial 2</h5>
+            <p class="text-success fw-bold">$1,500</p>
           </div>
         </div>
       </div>
       <!-- Producto 3 -->
       <div class="col-md-4">
-        <div class="card shadow-sm">
-          <img src="https://via.placeholder.com/300x250?text=Horno+3" class="card-img-top" alt="Horno 3">
+        <div class="card product-card" data-bs-toggle="modal" data-bs-target="#modal3">
+          <img src="https://via.placeholder.com/400x300?text=Horno+3" class="card-img-top" alt="Horno 3">
           <div class="card-body text-center">
-            <h5 class="card-title">Horno Industrial</h5>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Ver más</button>
+            <h5 class="card-title">Horno Industrial 3</h5>
+            <p class="text-success fw-bold">$1,800</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Botón WhatsApp -->
-  <a href="https://wa.me/51999999999?text=Hola%20quiero%20información%20sobre%20los%20hornos" target="_blank" class="whatsapp-btn">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-  </a>
-
-  <!-- MODAL 1 -->
+  <!-- Modal 1 -->
   <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal1Label">Horno Clásico</h5>
+          <h5 class="modal-title" id="modal1Label">Horno Industrial 1</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          Ideal para pequeñas pollerías. Capacidad para 12 pollos, ahorro de energía y fácil limpieza.
+          <img src="https://via.placeholder.com/600x400?text=Horno+1" class="img-fluid mb-3" alt="Horno 1">
+          <p>Este horno industrial es perfecto para panaderías y restaurantes, con capacidad para múltiples bandejas y control de temperatura de precisión.</p>
         </div>
         <div class="modal-footer">
-          <a href="https://wa.me/51999999999?text=Hola%20me%20interesa%20el%20Horno%20Cl%C3%A1sico" target="_blank" class="btn btn-success">Comprar por WhatsApp</a>
+          <a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20Horno%20Industrial%201" target="_blank" class="whatsapp-btn">💬 Contactar por WhatsApp</a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- MODAL 2 -->
+  <!-- Modal 2 -->
   <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal2Label">Horno Profesional</h5>
+          <h5 class="modal-title" id="modal2Label">Horno Industrial 2</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          Perfecto para negocios de alto flujo. Capacidad para 20 pollos, control de temperatura digital y acero inoxidable.
+          <img src="https://via.placeholder.com/600x400?text=Horno+2" class="img-fluid mb-3" alt="Horno 2">
+          <p>Diseñado para alto rendimiento, este horno incluye funciones avanzadas de cocción y ahorro de energía.</p>
         </div>
         <div class="modal-footer">
-          <a href="https://wa.me/51999999999?text=Hola%20me%20interesa%20el%20Horno%20Profesional" target="_blank" class="btn btn-success">Comprar por WhatsApp</a>
+          <a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20Horno%20Industrial%202" target="_blank" class="whatsapp-btn">💬 Contactar por WhatsApp</a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- MODAL 3 -->
+  <!-- Modal 3 -->
   <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal3Label">Horno Industrial</h5>
+          <h5 class="modal-title" id="modal3Label">Horno Industrial 3</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          Diseñado para producción masiva. Capacidad para 40 pollos, doble bandeja y tecnología de calor envolvente.
+          <img src="https://via.placeholder.com/600x400?text=Horno+3" class="img-fluid mb-3" alt="Horno 3">
+          <p>Horno de última generación con conectividad inteligente y programas de cocción automáticos.</p>
         </div>
         <div class="modal-footer">
-          <a href="https://wa.me/51999999999?text=Hola%20me%20interesa%20el%20Horno%20Industrial" target="_blank" class="btn btn-success">Comprar por WhatsApp</a>
+          <a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20Horno%20Industrial%203" target="_blank" class="whatsapp-btn">💬 Contactar por WhatsApp</a>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
 </body>
