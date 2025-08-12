@@ -5,108 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Hornos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Botón flotante de WhatsApp */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            z-index: 999;
+        }
+        .whatsapp-btn:hover {
+            background-color: #1ebe5d;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
-<!-- Encabezado -->
-<header class="bg-dark text-white text-center py-4">
-    <h1>Catálogo de Hornos y Pollerías</h1>
-    <p>Encuentra el horno perfecto para tu negocio</p>
-</header>
+    <!-- Encabezado -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🔥 Catálogo de Hornos</a>
+            <input id="searchBar" class="form-control w-50 ms-3" type="search" placeholder="Buscar horno...">
+        </div>
+    </nav>
 
-<!-- Catálogo -->
-<div class="container my-5">
-    <div class="row g-4">
-        <!-- Producto 1 -->
-        <div class="col-md-4">
-            <div class="card shadow h-100">
-                <img src="img/horno1.jpg" class="card-img-top" alt="Horno Industrial">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Horno Industrial</h5>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#producto1Modal">Ver más</button>
+    <!-- Contenido -->
+    <div class="container my-5">
+        <div class="row" id="productList">
+            <!-- Productos -->
+            <div class="col-md-4 mb-4 product-item" data-name="Horno de Ladrillo">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/400x200?text=Horno+de+Ladrillo" class="card-img-top" alt="Horno de Ladrillo">
+                    <div class="card-body">
+                        <h5 class="card-title">Horno de Ladrillo</h5>
+                        <button class="btn btn-primary" onclick="showDetails('Horno de Ladrillo', 'Ideal para pizzas y panes artesanales.')">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 product-item" data-name="Horno Industrial">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/400x200?text=Horno+Industrial" class="card-img-top" alt="Horno Industrial">
+                    <div class="card-body">
+                        <h5 class="card-title">Horno Industrial</h5>
+                        <button class="btn btn-primary" onclick="showDetails('Horno Industrial', 'Perfecto para panaderías y producción en masa.')">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 product-item" data-name="Horno Eléctrico">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/400x200?text=Horno+Electrico" class="card-img-top" alt="Horno Eléctrico">
+                    <div class="card-body">
+                        <h5 class="card-title">Horno Eléctrico</h5>
+                        <button class="btn btn-primary" onclick="showDetails('Horno Eléctrico', 'Práctico y fácil de usar en el hogar.')">Ver Detalles</button>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Producto 2 -->
-        <div class="col-md-4">
-            <div class="card shadow h-100">
-                <img src="img/horno2.jpg" class="card-img-top" alt="Horno para Pollería">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Horno para Pollería</h5>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#producto2Modal">Ver más</button>
+    <!-- Modal de Detalles -->
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="detailsModalLabel" class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-            </div>
-        </div>
-
-        <!-- Producto 3 -->
-        <div class="col-md-4">
-            <div class="card shadow h-100">
-                <img src="img/horno3.jpg" class="card-img-top" alt="Horno a Gas">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Horno a Gas</h5>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#producto3Modal">Ver más</button>
-                </div>
+                <div class="modal-body" id="detailsModalBody"></div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Modal Producto 1 -->
-<div class="modal fade" id="producto1Modal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Horno Industrial</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="img/horno1.jpg" class="img-fluid mb-3" alt="Horno Industrial">
-        <p>Horno industrial de alta capacidad, ideal para panaderías y restaurantes. Construcción en acero inoxidable, control digital de temperatura y bajo consumo energético.</p>
-      </div>
-    </div>
-  </div>
-</div>
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.me/51999999999" class="whatsapp-btn" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
-<!-- Modal Producto 2 -->
-<div class="modal fade" id="producto2Modal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Horno para Pollería</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="img/horno2.jpg" class="img-fluid mb-3" alt="Horno para Pollería">
-        <p>Horno especializado para pollerías, con sistema de rotación y cocción uniforme. Ideal para negocios que buscan calidad y rapidez en la preparación.</p>
-      </div>
-    </div>
-  </div>
-</div>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+    <script>
+        // Función para mostrar detalles
+        function showDetails(title, description) {
+            document.getElementById('detailsModalLabel').innerText = title;
+            document.getElementById('detailsModalBody').innerText = description;
+            new bootstrap.Modal(document.getElementById('detailsModal')).show();
+        }
 
-<!-- Modal Producto 3 -->
-<div class="modal fade" id="producto3Modal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Horno a Gas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="img/horno3.jpg" class="img-fluid mb-3" alt="Horno a Gas">
-        <p>Horno a gas de diseño compacto, perfecto para locales pequeños. Alta eficiencia energética y fácil mantenimiento.</p>
-      </div>
-    </div>
-  </div>
-</div>
+        // Búsqueda en tiempo real
+        document.getElementById('searchBar').addEventListener('keyup', function() {
+            let searchValue = this.value.toLowerCase();
+            document.querySelectorAll('.product-item').forEach(item => {
+                let productName = item.getAttribute('data-name').toLowerCase();
+                item.style.display = productName.includes(searchValue) ? 'block' : 'none';
+            });
+        });
+    </script>
 
-<!-- Botón de WhatsApp -->
-<a href="https://wa.me/51999999999" target="_blank" class="whatsapp-float">
-    <img src="img/whatsapp.png" alt="WhatsApp">
-</a>
-
-<!-- Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
