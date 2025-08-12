@@ -1,7 +1,30 @@
 body {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
+
+header h1 {
+    font-weight: bold;
+}
+
 .card img {
-  height: 200px;
-  object-fit: cover;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Botón de WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+.whatsapp-float img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+.whatsapp-float img:hover {
+    transform: scale(1.1);
 }
