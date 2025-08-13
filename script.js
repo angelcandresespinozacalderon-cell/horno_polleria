@@ -20,7 +20,7 @@ const successMessage = document.getElementById('success-message');
 // EmailJS configuration
 const EMAILJS_SERVICE_ID = 'service_xxxxxx'; // User needs to configure
 const EMAILJS_TEMPLATE_ID = 'template_xxxxxx'; // User needs to configure
-const EMAILJS_PUBLIC_KEY = 'xxxxxx'; // User needs to configure
+const EMAILJS_PUBLIC_KEY = 'xxxxxx' ; // User needs to configure
 
 // Initialize EmailJS
 emailjs.init(EMAILJS_PUBLIC_KEY);
