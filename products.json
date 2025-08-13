@@ -26,55 +26,57 @@
     "featured": true
 },
     {
-        "id": 2,
-        "name": "Horno a Gas Industrial GI-300",
-        "brand": "GasChef",
-        "category": "gas",
-        "price": 1299,
-        "description": "Horno a gas profesional ideal para uso intensivo en cocinas comerciales y domésticas exigentes.",
-        "specifications": [
-            "Capacidad: 85 litros",
-            "Quemadores: 6 niveles",
-            "Gas natural y GLP",
-            "Temperatura: 50-300°C",
-            "Acero inoxidable",
-            "Dimensiones: 90 x 60 x 60 cm"
-        ],
-        "features": [
-            "Encendido automático",
-            "Válvula de seguridad",
-            "Distribución uniforme del calor",
-            "Puerta con doble vidrio",
-            "Bandeja recolectora extraíble",
-            "Certificación de seguridad CE"
-        ],
-        "featured": false
-    },
+    "id": 2,
+    "name": "Parrilla de Ladrillo Artesanal",
+    "brand": "Hornos Eche",
+    "category": "Parrillas y asadores",
+    "price": 1299,
+    "image": "imagenes/horno2.jpg",
+    "description": "Parrilla de ladrillo construida artesanalmente, ideal para asados y barbacoas en espacios interiores o exteriores cubiertos. Su diseño robusto permite una excelente distribución del calor.",
+    "specifications": [
+        "Material: Ladrillo caravista rojo y concreto",
+        "Diseño: Estructura de base con espacio de trabajo y chimenea piramidal",
+        "Uso: Para asar carnes, vegetales y otros alimentos",
+        "Combustible: Carbón o leña",
+        "Área de cocción: Amplia parrilla empotrada",
+        "Dimensiones: Aproximadamente 2.00 x 1.00 x 2.20 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Construcción sólida y duradera",
+        "Gran capacidad para cocinar para varias personas",
+        "Estética rústica y profesional",
+        "Fácil de limpiar y mantener",
+        "Espacio de almacenamiento inferior para leña o utensilios",
+        "Diseño integrado para cocinas o terrazas"
+    ],
+    "featured": false
+},
     {
-        "id": 3,
-        "name": "Horno Empotrado Elegance BE-100",
-        "brand": "KitchenLux",
-        "category": "builtin",
-        "price": 1599,
-        "description": "Horno empotrado de diseño elegante con acabados premium y tecnología inteligente integrada.",
-        "specifications": [
-            "Capacidad: 65 litros",
-            "Potencia: 3600W",
-            "15 programas automáticos",
-            "WiFi integrado",
-            "Clase energética A+++",
-            "Dimensiones empotrado: 56 x 59.5 x 54.8 cm"
-        ],
-        "features": [
-            "Control por smartphone",
-            "Reconocimiento de voz",
-            "Sistema de vapor integrado",
-            "Limpieza hidrolítica",
-            "Iluminación LED interior",
-            "Diseño sin marco"
-        ],
-        "featured": true
-    },
+    "id": 3,
+    "name": "Módulo Parrilla-Horno Múltiple",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 1599,
+    "image": "imagenes/horno3.jpg",
+    "description": "Conjunto de parrilla y horno de ladrillo empotrado, ideal para crear una estación de cocción completa. Su diseño modular permite asar y hornear simultáneamente, perfecto para uso profesional o doméstico.",
+    "specifications": [
+        "Material: Ladrillo rústico y refractario",
+        "Configuración: Dos parrillas o áreas de cocción y un horno central",
+        "Uso: Para asados, pizzas, pan y otras preparaciones",
+        "Combustible: Leña o carbón",
+        "Acabado interior: Revestimiento de azulejos blancos en el horno",
+        "Dimensiones: Aproximadamente 3.50 x 0.80 x 2.50 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño multifuncional para diversas preparaciones",
+        "Construcción robusta y de alta durabilidad",
+        "Estética rústica y profesional",
+        "Amplios espacios para asar y hornear",
+        "Áreas de almacenamiento inferiores para leña y utensilios",
+        "Integrable en cualquier diseño de cocina o área de parrilla"
+    ],
+    "featured": true
+},
     {
         "id": 4,
         "name": "Horno Convección Profesional CP-450",
