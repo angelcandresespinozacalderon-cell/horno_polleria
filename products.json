@@ -4,7 +4,7 @@
     "name": "Horno Artesanal de Ladrillo y Cemento",
     "brand": "Hornos Eche",
     "category": "Hornos de leña",
-    "price": 899,
+    "price": 0,
     "image": "imagenes/horno1.jpg",
     "description": "Horno artesanal de ladrillo caravista para panadería y pizzas. Ideal para hornear con leña, proporcionando un sabor y cocción únicos.",
     "specifications": [
@@ -30,7 +30,7 @@
     "name": "Horno de pollo caravista, Ladrillo Artesanal",
     "brand": "Hornos Eche",
     "category": "Parrillas y asadores",
-    "price": 1299,
+    "price": 0,
     "image": "imagenes/horno2.jpg",
     "description": "Parrilla de ladrillo construida artesanalmente, ideal para asados y barbacoas en espacios interiores o exteriores cubiertos. Su diseño robusto permite una excelente distribución del calor.",
     "specifications": [
@@ -56,7 +56,7 @@
     "name": "Horno de pollo caravista , parrilla y una freidora",
     "brand": "Hornos Eche",
     "category": "Módulos de cocción",
-    "price": 1599,
+    "price": 0,
     "image": "imagenes/horno3.jpg",
     "description": "Conjunto de parrilla y horno de ladrillo empotrado, ideal para crear una estación de cocción completa. Su diseño modular permite asar y hornear simultáneamente, perfecto para uso profesional o doméstico.",
     "specifications": [
@@ -82,7 +82,7 @@
     "name": "Horno de pollo Caravista",
     "brand": "Hornos Eche",
     "category": "Parrillas y asadores",
-    "price": 2199,
+    "price": 0,
     "image": "imagenes/horno4.jpg",
     "description": "Imponente módulo parrillero doble de ladrillo, con dos chimeneas y múltiples espacios de cocción. Perfecto para eventos o uso intensivo en áreas de barbacoa cubiertas.",
     "specifications": [
@@ -108,7 +108,7 @@
     "name": "Horno de  Ladrillo y Porcelanato",
     "brand": "Hornos Eche",
     "category": "Módulos de cocción",
-    "price": 2899,
+    "price": 0,
     "image": "imagenes/horno6.jpg",
     "description": "Impresionante estación modular de cocción con múltiples parrillas y hornos, construida con ladrillos y revestida con porcelanato de efecto madera. Ideal para cocinas o áreas de barbacoa de diseño moderno.",
     "specifications": [
@@ -134,7 +134,7 @@
     "name": "Horno de Pollo con parrilla y enchapado",
     "brand": "Hornos Eche",
     "category": "Parrillas y asadores",
-    "price": 799,
+    "price": 0,
     "image": "imagenes/horno7.jpg",
     "description": "Parrilla empotrada de diseño funcional, construida con concreto y revestida con azulejos para una fácil limpieza. Ideal para espacios interiores o exteriores cubiertos.",
     "specifications": [
@@ -160,7 +160,7 @@
     "name": "Horno de Pollo enchapado con ceramica con una parrilla ",
     "brand": "Hornos Eche",
     "category": "Módulos de cocción",
-    "price": 2599,
+    "price": 0,
     "image": "imagenes/horno8.jpg",
     "description": "Estación de cocción modular construida con un diseño moderno, revestida con azulejos de mosaico que le dan un acabado único. Ideal para cocinas, restaurantes o áreas de parrilla con un toque distintivo.",
     "specifications": [
