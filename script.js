@@ -340,13 +340,13 @@ function closeModal() {
 // WhatsApp contact functions
 function contactWhatsApp(productName) {
     const message = `Hola, me interesa el ${productName}. ¿Podrías darme más información?`;
-    const whatsappUrl = `https://wa.me/34900123456?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/51960537691?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
 function contactWhatsAppGeneral() {
     const message = "Hola, me gustaría obtener información sobre sus hornos. ¡Gracias!";
-    const whatsappUrl = `https://wa.me/34900123456?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/51960537691?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
