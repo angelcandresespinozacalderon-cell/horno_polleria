@@ -27,7 +27,7 @@
 },
     {
     "id": 2,
-    "name": "Parrilla de Ladrillo Artesanal",
+    "name": "Horno de pollo caravista, Ladrillo Artesanal",
     "brand": "Hornos Eche",
     "category": "Parrillas y asadores",
     "price": 1299,
@@ -53,7 +53,7 @@
 },
     {
     "id": 3,
-    "name": "Módulo Parrilla-Horno Múltiple",
+    "name": "Horno de pollo caravista , parrilla y una freidora",
     "brand": "Hornos Eche",
     "category": "Módulos de cocción",
     "price": 1599,
@@ -131,7 +131,7 @@
 },
     {
     "id": 6,
-    "name": "Parrilla de Concreto y Azulejo",
+    "name": "Horno de Pollo con parrilla y enchapado",
     "brand": "Hornos Eche",
     "category": "Parrillas y asadores",
     "price": 799,
