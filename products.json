@@ -78,103 +78,107 @@
     "featured": true
 },
     {
-        "id": 4,
-        "name": "Horno Convección Profesional CP-450",
-        "brand": "ProBake",
-        "category": "convection",
-        "price": 2199,
-        "description": "Horno de convección profesional con sistema de circulación de aire optimizado para resultados perfectos.",
-        "specifications": [
-            "Capacidad: 95 litros",
-            "Potencia: 4200W",
-            "Ventilador de convección doble",
-            "Temperatura: 30-280°C",
-            "10 niveles de cocción",
-            "Dimensiones: 75 x 70 x 65 cm"
-        ],
-        "features": [
-            "Sistema de convección forzada",
-            "Temporizador digital",
-            "Aislamiento térmico superior",
-            "Puerta extraíble",
-            "Rejillas ajustables",
-            "Garantía profesional 5 años"
-        ],
-        "featured": false
-    },
+    "id": 4,
+    "name": "Horno de Pollo Caravista",
+    "brand": "Hornos Eche",
+    "category": "Parrillas y asadores",
+    "price": 2199,
+    "image": "imagenes/horno4.jpg",
+    "description": "Imponente módulo parrillero doble de ladrillo, con dos chimeneas y múltiples espacios de cocción. Perfecto para eventos o uso intensivo en áreas de barbacoa cubiertas.",
+    "specifications": [
+        "Material: Ladrillo caravista rojo y refractario",
+        "Diseño: Módulo doble con dos chimeneas",
+        "Uso: Múltiples parrillas para asar, hornear y ahumar",
+        "Combustible: Leña o carbón",
+        "Estética: Rústica y tradicional",
+        "Dimensiones: Aproximadamente 3.00 x 1.00 x 2.80 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Gran capacidad para cocinar simultáneamente",
+        "Doble chimenea para un mejor control de humos",
+        "Construcción sólida y duradera",
+        "Múltiples arcos de cocción y hornos",
+        "Diseño versátil para diversas preparaciones",
+        "Espacios inferiores para almacenamiento de leña"
+    ],
+    "featured": false
+},
+   {
+    "id": 5,
+    "name": "Horno de  Ladrillo y Porcelanato",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 2899,
+    "image": "imagenes/horno6.jpg",
+    "description": "Impresionante estación modular de cocción con múltiples parrillas y hornos, construida con ladrillos y revestida con porcelanato de efecto madera. Ideal para cocinas o áreas de barbacoa de diseño moderno.",
+    "specifications": [
+        "Material: Ladrillo, porcelanato y refractarios",
+        "Configuración: Múltiples parrillas, hornos o fogones",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Porcelanato de gran formato",
+        "Estética: Moderna y minimalista",
+        "Dimensiones: Módulo personalizable de aproximadamente 4.00 x 1.00 x 2.50 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño elegante y contemporáneo",
+        "Múltiples áreas de trabajo y cocción",
+        "Construcción robusta y de alta durabilidad",
+        "Fácil de limpiar gracias al revestimiento de porcelanato",
+        "Amplios espacios para almacenamiento inferior",
+        "Personalizable para adaptarse a cualquier espacio"
+    ],
+    "featured": false
+},
     {
-        "id": 5,
-        "name": "Horno Eléctrico Compacto EC-Smart",
-        "brand": "CompactCook",
-        "category": "electric",
-        "price": 549,
-        "description": "Horno eléctrico compacto perfecto para cocinas pequeñas sin comprometer la funcionalidad.",
-        "specifications": [
-            "Capacidad: 45 litros",
-            "Potencia: 2800W",
-            "8 funciones de cocción",
-            "Temperatura: 50-230°C",
-            "Clase energética A+",
-            "Dimensiones: 52 x 52 x 42 cm"
-        ],
-        "features": [
-            "Diseño ultracompacto",
-            "Grill integrado",
-            "Timer programable",
-            "Luz interior halógena",
-            "Fácil instalación",
-            "Bajo consumo energético"
-        ],
-        "featured": false
-    },
+    "id": 6,
+    "name": "Parrilla de Concreto y Azulejo",
+    "brand": "Hornos Eche",
+    "category": "Parrillas y asadores",
+    "price": 799,
+    "image": "imagenes/horno7.jpg",
+    "description": "Parrilla empotrada de diseño funcional, construida con concreto y revestida con azulejos para una fácil limpieza. Ideal para espacios interiores o exteriores cubiertos.",
+    "specifications": [
+        "Material: Concreto y ladrillo refractario",
+        "Acabado: Azulejos de cerámica color claro",
+        "Uso: Para asados y barbacoas",
+        "Combustible: Carbón o leña",
+        "Diseño: Módulo doble con una parrilla y un área de trabajo",
+        "Dimensiones: Aproximadamente 2.50 x 0.70 x 1.80 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Construcción sólida y duradera",
+        "Superficie de trabajo y estante de almacenamiento",
+        "Fácil de limpiar gracias al revestimiento de azulejos",
+        "Ideal para cocinas o áreas de ocio",
+        "Estética limpia y funcional",
+        "Amplia capacidad de cocción"
+    ],
+    "featured": false
+},
     {
-        "id": 6,
-        "name": "Horno Eléctrico Compacto EC-Smart",
-        "brand": "CompactCook",
-        "category": "electric",
-        "price": 549,
-        "description": "Horno eléctrico compacto perfecto para cocinas pequeñas sin comprometer la funcionalidad.",
-        "specifications": [
-            "Capacidad: 45 litros",
-            "Potencia: 2800W",
-            "8 funciones de cocción",
-            "Temperatura: 50-230°C",
-            "Clase energética A+",
-            "Dimensiones: 52 x 52 x 42 cm"
-        ],
-        "features": [
-            "Diseño ultracompacto",
-            "Grill integrado",
-            "Timer programable",
-            "Luz interior halógena",
-            "Fácil instalación",
-            "Bajo consumo energético"
-        ],
-        "featured": false
-    },
-    {
-        "id": 7,
-        "name": "Horno Eléctrico Compacto EC-Smart",
-        "brand": "CompactCook",
-        "category": "electric",
-        "price": 549,
-        "description": "Horno eléctrico compacto perfecto para cocinas pequeñas sin comprometer la funcionalidad.",
-        "specifications": [
-            "Capacidad: 45 litros",
-            "Potencia: 2800W",
-            "8 funciones de cocción",
-            "Temperatura: 50-230°C",
-            "Clase energética A+",
-            "Dimensiones: 52 x 52 x 42 cm"
-        ],
-        "features": [
-            "Diseño ultracompacto",
-            "Grill integrado",
-            "Timer programable",
-            "Luz interior halógena",
-            "Fácil instalación",
-            "Bajo consumo energético"
-        ],
-        "featured": false
-    }
+    "id": 7,
+    "name": "Horno de Pollo enchapado con ceramica con una parrilla ",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 2599,
+    "image": "imagenes/horno8.jpg",
+    "description": "Estación de cocción modular construida con un diseño moderno, revestida con azulejos de mosaico que le dan un acabado único. Ideal para cocinas, restaurantes o áreas de parrilla con un toque distintivo.",
+    "specifications": [
+        "Material: Ladrillo, concreto y azulejos de mosaico",
+        "Configuración: Múltiples espacios para parrilla y hornos",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Azulejos de mosaico en tonos neutros",
+        "Estética: Moderna y decorativa",
+        "Dimensiones: Aproximadamente 3.50 x 0.80 x 2.50 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño atractivo y funcional",
+        "Múltiples áreas de trabajo y cocción",
+        "Construcción sólida y duradera",
+        "Fácil de limpiar y mantener",
+        "Espacios inferiores para almacenamiento",
+        "Personalizable para adaptarse a cualquier espacio"
+    ],
+    "featured": false
+}
 ]
