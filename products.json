@@ -355,5 +355,106 @@
         "Compartimento inferior para el carbón o la leña"
     ],
     "featured": false
+},
+   {
+    "id": 15,
+    "name": "Parrilla de Ladrillo con Spiedo y Acabados de Lujo",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno15.jpg",
+    "description": "Una parrilla de alta gama diseñada para una experiencia de asado profesional. Equipada con un sistema de spiedo para cocción rotativa, esta parrilla se destaca por sus elegantes arcos de ladrillo visto y su revestimiento de azulejos que imitan la madera. Incluye un nicho lateral con puerta metálica, ideal para guardar utensilios o accesorios de parrilla. Es la opción perfecta para quienes buscan un equipo funcional, duradero y con un diseño sofisticado para su área de parrilla.",
+    "specifications": [
+        "Material: Ladrillo, concreto, azulejos y acero inoxidable",
+        "Configuración: Parrilla central con spiedo y espacio de almacenamiento lateral",
+        "Uso: Cocción a la leña o carbón, ideal para pollos a la brasa o carnes grandes",
+        "Acabado exterior: Azulejos de imitación madera y arcos de ladrillo visto",
+        "Estética: Sofisticada y moderna",
+        "Dimensiones: Aproximadamente 2.80 m x 0.80 m x 2.20 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Sistema de spiedo incorporado",
+        "Diseño elegante con arcos de ladrillo",
+        "Construcción sólida y de fácil mantenimiento",
+        "Espacio lateral para almacenamiento",
+        "Ideal para cocción rotativa y asados"
+    ],
+    "featured": true
+},
+   {
+    "id": 16,
+    "name": "Módulo de Cocina Lineal con Múltiples Espacios de Cocción",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno16.jpg",
+    "description": "Una imponente estación de cocción de diseño lineal y minimalista, ideal para cocinas industriales, restaurantes o espacios de parrilla de gran escala. La estructura cuenta con múltiples hornos o parrillas de ladrillo refractario, enchapados con cerámica en tonos claros y una franja decorativa que le da un toque distintivo. Su diseño funcional permite cocinar grandes cantidades de alimentos de forma simultánea.",
+    "specifications": [
+        "Material: Ladrillo, concreto y azulejos de cerámica",
+        "Configuración: Estación de cocción larga con varios nichos para parrillas y hornos",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Azulejos de cerámica en tonos beige con una franja roja",
+        "Estética: Minimalista y funcional",
+        "Dimensiones: Aproximadamente 5.00 m x 0.90 m x 2.20 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño de gran escala",
+        "Múltiples áreas de trabajo para cocción simultánea",
+        "Construcción sólida y duradera",
+        "Espacios inferiores para almacenamiento",
+        "Fácil de limpiar y mantener"
+    ],
+    "featured": false
+},
+   {
+    "id": 17,
+    "name": "Horno de Ladrillo Multifuncional con Diseño Escalado",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno17.jpg",
+    "description": "Una impresionante estación de cocción con un diseño audaz y funcional. La estructura principal está enchapada con azulejos de cerámica de color naranja, creando un efecto visual llamativo. Cuenta con un gran horno abovedado y un espacio de parrilla lateral, ideal para asados y horneados. La chimenea escalonada no solo es funcional, sino que también añade un elemento arquitectónico distintivo, perfecto para patios o áreas de terraza.",
+    "specifications": [
+        "Material: Ladrillo, concreto y azulejos de cerámica",
+        "Configuración: Horno de bóveda grande y parrilla lateral",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Azulejos de cerámica brillante en color naranja",
+        "Estética: Moderna y llamativa",
+        "Dimensiones: Aproximadamente 3.50 m x 1.00 m x 3.00 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño arquitectónico único con chimenea escalonada",
+        "Horno de gran capacidad para pizzas y pan",
+        "Construcción sólida y duradera",
+        "Espacios inferiores para almacenamiento",
+        "Acabado brillante y fácil de limpiar"
+    ],
+    "featured": true
+},
+   {
+    "id": 18,
+    "name": "Módulo de Cocina con Parrillas Múltiples y Acabado Moderno",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno18.jpg",
+    "description": "Una imponente estación de cocción con un diseño escalonado y revestimiento de azulejos que imitan la madera. La estructura cuenta con dos espacios de parrilla de ladrillo refractario de diferentes tamaños, ideales para cocinar simultáneamente. Su estética moderna y funcional se adapta perfectamente a espacios de parrilla contemporáneos, ofreciendo una solución completa para asados y eventos.",
+    "specifications": [
+        "Material: Ladrillo refractario, concreto y azulejos de imitación madera",
+        "Configuración: Dos parrillas de diferentes tamaños y chimenea escalonada",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Azulejos de porcelanato de imitación madera en tonos marrones",
+        "Estética: Moderna y funcional",
+        "Dimensiones: Aproximadamente 4.00 m x 0.90 m x 2.50 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño escalonado llamativo",
+        "Múltiples áreas de cocción para asar simultáneamente",
+        "Construcción sólida y duradera",
+        "Espacios inferiores para almacenamiento",
+        "Fácil de limpiar y mantener"
+    ],
+    "featured": false
 }
+   
 ]
