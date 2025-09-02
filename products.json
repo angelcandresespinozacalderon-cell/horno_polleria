@@ -205,5 +205,30 @@
         "Espacios de almacenamiento inferiores"
     ],
     "featured": false
+},
+   {
+    "id": 9,
+    "name": "Módulo de Parrilla y Horno Doble con Revestimiento en Porcelanato",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno9.jpg",
+    "description": "Estación de cocina modular con un diseño minimalista y moderno. Cuenta con dos espacios de cocción independientes: una parrilla y un horno. El revestimiento en porcelanato de imitación madera le da un acabado limpio y cálido, ideal para cocinas interiores o espacios de parrilla que busquen un toque elegante.",
+    "specifications": [
+        "Material: Ladrillo refractario, concreto y porcelanato",
+        "Configuración: Dos módulos de cocción (uno grande, uno pequeño) con chimeneas internas y espacios de almacenamiento inferiores",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Porcelanato de imitación madera",
+        "Estética: Moderna y minimalista",
+        "Dimensiones: Aproximadamente 3.20 x 0.70 x 2.20 metros (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño elegante y de fácil mantenimiento",
+        "Dos áreas de cocción para diferentes tipos de alimentos",
+        "Construcción sólida y duradera",
+        "Encimera de concreto pulido para trabajo o servir",
+        "Espacios inferiores para almacenamiento de leña y utensilios"
+    ],
+    "featured": false
 }
 ]
