@@ -180,5 +180,30 @@
         "Personalizable para adaptarse a cualquier espacio"
     ],
     "featured": false
+},
+   {
+    "id": 8,
+    "name": "Horno de Pollo y Parrilla Multifuncional con Acabado Rústico",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno9.jpg",
+    "description": "Estación de cocción modular de ladrillo y concreto, con espacios separados para asar a la parrilla y hornear. El acabado exterior de ladrillo visto le da un aspecto rústico y clásico. Es una opción ideal para aquellos que necesitan múltiples zonas de cocción en un solo lugar.",
+    "specifications": [
+        "Material: Ladrillo refractario, concreto y cemento",
+        "Configuración: Tres módulos de cocción: uno para horno y dos para parrilla, con una chimenea central y espacios de almacenamiento inferiores",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Ladrillo visto y terminaciones de cemento",
+        "Estética: Rústica y tradicional",
+        "Dimensiones: 4.00 m x 0.90 m x 2.70 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño espacioso que permite cocinar grandes cantidades de comida",
+        "Construcción duradera con materiales resistentes al calor",
+        "Versatilidad para asar, hornear y ahumar en un solo módulo",
+        "Personalizable para adaptarse a cualquier espacio",
+        "Espacios de almacenamiento inferiores"
+    ],
+    "featured": false
 }
 ]
