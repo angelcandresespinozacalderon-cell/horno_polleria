@@ -230,5 +230,30 @@
         "Espacios inferiores para almacenamiento de leña y utensilios"
     ],
     "featured": false
+},
+   {
+    "id": 10,
+    "name": "Parrilla de Ladrillo Refractario con Encimera de Concreto y Almacenamiento",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno10.jpg",
+    "description": "Una parrilla robusta y funcional, ideal para exteriores o cocinas amplias. Construida con ladrillo refractario, esta parrilla ofrece una excelente retención del calor. Cuenta con una encimera de concreto pulido que sirve como área de trabajo y un diseño que integra espacio para el almacenamiento de leña.",
+    "specifications": [
+        "Material: Ladrillo refractario y concreto",
+        "Configuración: Parrilla de un solo espacio con cámara de combustión amplia",
+        "Uso: Ideal para cocción a la leña o carbón",
+        "Acabado exterior: Ladrillo refractario visto",
+        "Estética: Industrial y funcional",
+        "Dimensiones: Aproximadamente 2.50 m x 0.80 m x 2.20 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Gran capacidad para cocinar",
+        "Construcción duradera y resistente al calor",
+        "Área de trabajo funcional en la encimera de concreto",
+        "Compartimento para almacenamiento de leña",
+        "Fácil mantenimiento"
+    ],
+    "featured": false
 }
 ]
