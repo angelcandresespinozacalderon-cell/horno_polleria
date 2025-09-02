@@ -255,5 +255,105 @@
         "Fácil mantenimiento"
     ],
     "featured": false
+},
+   {
+    "id": 11,
+    "name": "Módulo de Cocina Exterior con Horno de Cúpula y Parrilla",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno11.jpg",
+    "description": "Un completo módulo de cocina exterior que combina funcionalidad y un diseño estético. Cuenta con una gran parrilla de tres cuerpos y un horno de cúpula independiente, ambos revestidos con azulejos de mosaico en tonos marrones y beige. Ideal para quienes buscan un espacio versátil para asar, hornear pizzas o pan, y tener un área de cocción completa en el exterior.",
+    "specifications": [
+        "Material: Ladrillo, concreto y azulejos de mosaico",
+        "Configuración: Parrilla de tres cuerpos, horno de cúpula y espacios de almacenamiento inferiores",
+        "Uso: Cocción a la leña y carbón",
+        "Acabado exterior: Azulejos de mosaico en tonos neutros",
+        "Estética: Moderna y multifuncional",
+        "Dimensiones: Aproximadamente 4.50 m x 1.00 m x 2.50 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño integral con parrilla y horno",
+        "Horno de cúpula para pizza, pan y otros horneados",
+        "Gran espacio de parrilla para eventos o familias grandes",
+        "Construcción sólida y duradera",
+        "Estética atractiva y fácil de limpiar"
+    ],
+    "featured": true
+},
+   {
+    "id": 12,
+    "name": "Parrilla de Ladrillo Multifuncional de Dos Niveles",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno12.jpg",
+    "description": "Una imponente parrilla modular construida completamente con ladrillo visto. Su diseño de dos niveles y múltiples compartimentos la hace ideal para cocinar diferentes tipos de alimentos a distintas temperaturas. La estructura en forma de escalera le da un toque distintivo y tradicional, perfecto para un patio o cocina exterior.",
+    "specifications": [
+        "Material: Ladrillo y concreto",
+        "Configuración: Múltiples espacios para parrilla con diferentes alturas y chimeneas superiores",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Ladrillo visto en tonos rojizos",
+        "Estética: Tradicional y funcional",
+        "Dimensiones: Aproximadamente 3.00 m x 0.80 m x 2.50 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño escalonado único",
+        "Múltiples zonas de cocción simultáneas",
+        "Construcción sólida y de gran durabilidad",
+        "Compartimentos inferiores para almacenamiento de leña",
+        "Fácil integración en cualquier espacio rústico"
+    ],
+    "featured": false
+},
+   {
+    "id": 13,
+    "name": "Módulo de Cocina con Parrilla, Horno y Espacio de Almacenamiento",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno13.jpg",
+    "description": "Estación de cocción modular que combina un diseño moderno con funcionalidad. Revestida con azulejos de imitación madera, esta estructura integra una parrilla, un horno y un amplio espacio de almacenamiento o para fregadero. El acabado le da un aspecto cálido y elegante, perfecto para un área de cocina moderna en interiores o exteriores.",
+    "specifications": [
+        "Material: Ladrillo, concreto y porcelanato de imitación madera",
+        "Configuración: Parrilla, horno, y un espacio de almacenamiento o fregadero con un revestimiento de azulejos blancos",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Porcelanato de imitación madera y azulejos blancos",
+        "Estética: Moderna y multifuncional",
+        "Dimensiones: Aproximadamente 4.00 m x 0.80 m x 2.50 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño integral y versátil",
+        "Combina área de cocción y de trabajo",
+        "Construcción sólida y de fácil mantenimiento",
+        "Espacios inferiores para almacenamiento",
+        "Acabado estético y moderno"
+    ],
+    "featured": false
+},
+   {
+    "id": 14,
+    "name": "Parrilla de Ladrillo Clásica con Diseño de Chimenea",
+    "brand": "Hornos Eche",
+    "category": "Módulos de cocción",
+    "price": 0,
+    "image": "imagenes/horno14.jpg",
+    "description": "Una parrilla de diseño clásico y atemporal, construida enteramente con ladrillos. Su estructura robusta incluye una amplia zona de cocción y una chimenea en forma de pirámide que garantiza una excelente salida de humo. Es ideal para aquellos que buscan una parrilla tradicional y funcional para su hogar o jardín, con un toque rústico y duradero.",
+    "specifications": [
+        "Material: Ladrillo, concreto y azulejos blancos",
+        "Configuración: Espacio de parrilla único con base de ladrillo visto",
+        "Uso: Cocción a la leña o carbón",
+        "Acabado exterior: Ladrillo visto y detalles de azulejos blancos en la base",
+        "Estética: Tradicional y rústica",
+        "Dimensiones: Aproximadamente 2.00 m x 0.80 m x 2.50 m (ancho x fondo x alto)"
+    ],
+    "features": [
+        "Diseño clásico y robusto",
+        "Buena ventilación para el humo",
+        "Construcción duradera y resistente al calor",
+        "Fácil de usar y mantener",
+        "Compartimento inferior para el carbón o la leña"
+    ],
+    "featured": false
 }
 ]
